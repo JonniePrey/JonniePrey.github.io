@@ -19,7 +19,6 @@
     <img src="/images/Photography-2016-07-13/12.jpg">
   </div>
 
-
   <div class="mySlides fade">
     <img src="/images/Photography-2016-07-13/27.jpg">
   </div>
@@ -217,7 +216,7 @@
 </div>
 
 <script>
-      var slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -237,7 +236,7 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none"; 
   }
-  for (i = 0; i < dots.length; i++) {
+ for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block"; 
